@@ -1,82 +1,75 @@
-# Expense App
+# Wallet Wise Pro
 
 ## Description
 
-💰 **Expense App** is a financial management application designed to help users track expenses and manage their budgets effectively. The app includes features such as:
-
-- **Expense Categorization**: Organize expenses into custom categories for better tracking.
-- **Monthly Budget Tracking**: Set and monitor monthly budgets with ease.
-- **Detailed Expense List**: View all added expenses in a clear and organized format.
-- **Currency Conversion**: Choose from multiple currency options for seamless global use.
-- **Light and Dark Themes**: Personalize your experience with theme options.
-- **Customizable Text Styles**: Adjust text styles across the app to suit your preferences.
-
-With **GetX** for state management and **SQLite** as the local database, the app ensures reactive updates and reliable data storage. It provides a smooth and intuitive user experience, empowering users to take better control of their finances.
+💼 **Wallet Wise Pro** is a powerful financial management application designed to help users take control of their spending, track expenses, and manage budgets effortlessly. With its user-friendly interface and versatile features, **Wallet Wise Pro** is your ultimate companion for achieving financial freedom.
 
 ---
 
 ## Features
 
-- **Track Expenses**:Effortlessly log daily expenses with an intuitive and quick input interface.
-Assign expenses to pre-defined categories such as food, travel, utilities, and custom categories for added flexibility.
-Use filters to view expenses by category, date, or amount.
+- **Track Expenses**  
+  - Log daily expenses quickly and easily using an intuitive input interface.  
+  - Categorize expenses into predefined categories like Food, Travel, Utilities, or create custom categories.  
+  - Use filters to view expenses by date, category, or amount for deeper insights.
 
-- **Budget Planning**:Define monthly or weekly budgets for specific categories or overall expenses.
-Get instant alerts when you're nearing your budget limit.
-View progress through visually appealing charts and graphs to monitor spending habits effectively.
+- **Budget Planning**  
+  - Set up monthly or weekly budgets and monitor your spending progress.  
+  - Receive alerts when nearing or exceeding your budget limit.  
+  - Visualize spending trends through clear charts and graphs.
 
-- **Currency Conversion**:
-Automatically convert expenses into your preferred currency using real-time exchange rates.
-Support for multi-currency tracking for users with international spending.
-Offline mode allows you to set custom conversion rates when internet connectivity is unavailable.
+- **Currency Conversion**  
+  - Automatically convert expenses into your preferred currency with real-time exchange rates.  
+  - Support for multiple currencies for global users.  
+  - Offline mode lets you set custom conversion rates when connectivity is unavailable.
 
-- **Theme Personalization**:Choose between light and dark modes for comfortable usage day or night.
-Auto-adjust themes based on your device’s system settings.
-Additional options to change accent colors to suit your personal style.
+- **Theme Personalization**  
+  - Switch between light and dark themes for day or night comfort.  
+  - Sync the theme with your device's system settings.  
+  - Customize accent colors to match your personal style.
 
-- **Customizable UI**:Personalize text size and font styles for a tailored reading experience.
-Reorder or hide sections of the interface to keep your most-used features front and center.
-Add personal notes or tags to individual expense entries for better organization.
+- **Customizable UI**  
+  - Adjust text sizes and fonts for a tailored reading experience.  
+  - Rearrange or hide sections of the app to focus on the features you use most.  
+  - Add personal notes or tags to expense entries for better organization.
 
-- **Local Data Storage**:Securely store all your expense data offline using SQLite, ensuring privacy and accessibility even without an internet connection.
-Automatic backups to local storage with an option for cloud synchronization (optional).
-Quick data export to PDF or CSV for sharing or archiving purposes
+- **Local Data Storage**  
+  - All data is securely stored offline using SQLite for privacy and accessibility without internet.  
+  - Automatic backups to local storage, with optional cloud sync (future feature).  
+  - Export your expense data to PDF or CSV for sharing or archiving.
 
 ---
 
 ## Screenshots
 
 ### **1. Home Screen**
-<img width="1675" alt="Screenshot 2024-11-21 at 4 04 24 PM" src="https://github.com/user-attachments/assets/da4e291d-ee17-4ac4-a05e-ce9adb3c0d76">
-
+![Home Screen](https://github.com/user-attachments/assets/da4e291d-ee17-4ac4-a05e-ce9adb3c0d76)
 
 ---
 
 ### **2. Add Expense**
-<img width="1675" alt="Screenshot 2024-11-21 at 4 05 27 PM" src="https://github.com/user-attachments/assets/9062469b-1851-431e-b410-bbb8be5218e4">
+![Add Expense](https://github.com/user-attachments/assets/9062469b-1851-431e-b410-bbb8be5218e4)
 
 ---
 
 ### **3. Expense List**
-<img width="1675" alt="Screenshot 2024-11-21 at 4 06 06 PM" src="https://github.com/user-attachments/assets/c673a3c9-6e05-4fed-9cb4-c38a5ead7a42">
-
+![Expense List](https://github.com/user-attachments/assets/c673a3c9-6e05-4fed-9cb4-c38a5ead7a42)
 
 ---
 
 ### **4. Budget Tracking**
-<img width="1675" alt="Screenshot 2024-11-21 at 4 04 46 PM" src="https://github.com/user-attachments/assets/6150a917-14c6-46b3-be13-a33043925993">
+![Budget Tracking](https://github.com/user-attachments/assets/6150a917-14c6-46b3-be13-a33043925993)
 
 ---
 
 ### **5. Settings and Theme Options**
-<img width="1675" alt="Screenshot 2024-11-21 at 4 07 50 PM" src="https://github.com/user-attachments/assets/09e0562a-43aa-4a62-8f0e-0b8b4305ee9b">
-
+![Settings and Theme Options](https://github.com/user-attachments/assets/09e0562a-43aa-4a62-8f0e-0b8b4305ee9b)
 
 ---
 
 ## Technical Details
 
-- **Framework**: Flutter,Dart
-- **State Management**: GetX
-- **Database**: SQLite
-- **Supported Platforms**: Android & iOS
+- **Framework**: Flutter, Dart  
+- **State Management**: GetX  
+- **Database**: SQLite  
+- **Supported Platforms**: Android & iOS  
