@@ -58,7 +58,7 @@ With **GetX** for state management and **SQLite** as the local database, the app
 
 ## Technical Details
 
-- **Framework**: Flutter
+- **Framework**: Flutter,Dart
 - **State Management**: GetX
 - **Database**: SQLite
 - **Supported Platforms**: Android & iOS
