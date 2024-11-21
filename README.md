@@ -17,12 +17,39 @@ With **GetX** for state management and **SQLite** as the local database, the app
 
 ## Features
 
-- **Track Expenses**: Log and categorize your daily expenses quickly.
-- **Budget Planning**: Set monthly budgets to avoid overspending.
-- **Currency Conversion**: Convert expenses into different currencies.
-- **Theme Personalization**: Switch between light and dark modes.
-- **Customizable UI**: Personalize text styles and interface settings.
-- **Local Data Storage**: All data is securely stored offline using SQLite.
+- **Track Expenses**:
+Effortlessly log daily expenses with an intuitive and quick input interface.
+Assign expenses to pre-defined categories such as food, travel, utilities, and custom categories for added flexibility.
+Use filters to view expenses by category, date, or amount.
+
+- **Budget Planning**:
+Define monthly or weekly budgets for specific categories or overall expenses.
+Get instant alerts when you're nearing your budget limit.
+View progress through visually appealing charts and graphs to monitor spending habits effectively.
+
+-**Currency Conversion**:
+
+Automatically convert expenses into your preferred currency using real-time exchange rates.
+Support for multi-currency tracking for users with international spending.
+Offline mode allows you to set custom conversion rates when internet connectivity is unavailable.
+
+-**Theme Personalization**:
+
+Choose between light and dark modes for comfortable usage day or night.
+Auto-adjust themes based on your device’s system settings.
+Additional options to change accent colors to suit your personal style.
+
+-**Customizable UI**:
+
+Personalize text size and font styles for a tailored reading experience.
+Reorder or hide sections of the interface to keep your most-used features front and center.
+Add personal notes or tags to individual expense entries for better organization.
+
+-**Local Data Storage**:
+
+Securely store all your expense data offline using SQLite, ensuring privacy and accessibility even without an internet connection.
+Automatic backups to local storage with an option for cloud synchronization (optional).
+Quick data export to PDF or CSV for sharing or archiving purposes
 
 ---
 
