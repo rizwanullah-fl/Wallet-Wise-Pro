@@ -96,29 +96,34 @@ class _UpdateCategoryState extends State<UpdateCategory> {
   }
 
   Future<void> _pickIcon() async {
-    IconData? icon = await showIconPicker(
-      context,
-      adaptiveDialog: isAdaptive,
-      showTooltips: showTooltips,
-      showSearchBar: showSearch,
-      iconPickerShape:
-          RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-      // iconPackModes: IconNotifier.starterPacks,
-      searchComparator: (String search, IconPickerIcon icon) =>
-          search
-              .toLowerCase()
-              .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
-          icon.name.toLowerCase().contains(search.toLowerCase()),
-    );
+    // IconData? icon = await showIconPicker(
+    //   context,
+    //   adaptiveDialog: isAdaptive,
+    //   showTooltips: showTooltips,
+    //   showSearchBar: showSearch,
+    //   iconPickerShape:
+    //       RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+    //   // iconPackModes: IconNotifier.starterPacks,
+    setState(() {
+          selectedIcon = Icons.safety_check;
 
-    if (icon != null) {
-      setState(() {
-        selectedIcon = icon;
-      });
+    });
 
-      debugPrint(
-          'Picked Icon:  $icon and saved it successfully in local hive db.');
-    }
+    //   searchComparator: (String search, IconPickerIcon icon) =>
+    //       search
+    //           .toLowerCase()
+    //           .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
+    //       icon.name.toLowerCase().contains(search.toLowerCase()),
+    // );
+
+    // if (icon != null) {
+    //   setState(() {
+    //     selectedIcon = icon;
+    //   });
+
+    //   debugPrint(
+    //       'Picked Icon:  $icon and saved it successfully in local hive db.');
+    // }
   }
 
   @override
@@ -307,26 +312,29 @@ class _UpdateCategoryState extends State<UpdateCategory> {
   }
 
   Future<void> pickIcon(BuildContext context) async {
-    IconData? icon = await showIconPicker(
-      context,
-      adaptiveDialog: true,
-      showTooltips: false,
-      showSearchBar: true,
-      iconPickerShape:
-          RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-      searchComparator: (String search, IconPickerIcon icon) =>
-          search
-              .toLowerCase()
-              .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
-          icon.name.toLowerCase().contains(search.toLowerCase()),
-    );
+    // IconData? icon = await showIconPicker(
+    //   context,
+    //   adaptiveDialog: true,
+    //   showTooltips: false,
+    //   showSearchBar: true,
+    //   iconPickerShape:
+    //       RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+    //   searchComparator: (String search, IconPickerIcon icon) =>
+    //       search
+    //           .toLowerCase()
+    //           .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
+    //       icon.name.toLowerCase().contains(search.toLowerCase()),
+    // );
+   setState(() {
+          selectedIcon = Icons.safety_check;
 
-    if (icon != null) {
-      setState(() {
-        selectedIcon = icon;
-      });
-      debugPrint('Picked Icon:  $icon');
-    }
+    });
+    // if (icon != null) {
+    //   setState(() {
+    //     selectedIcon = icon;
+    //   });
+    //   debugPrint('Picked Icon:  $icon');
+    // }
   }
 
   Future<void> showColorPickerDialog(BuildContext context) async {

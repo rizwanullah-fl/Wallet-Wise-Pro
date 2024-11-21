@@ -45,7 +45,7 @@ dependencies:
   animated_segmented_tab_control: ^2.0.0
   paged_vertical_calendar: ^1.1.7
   intl: ^0.18.1
-  flutter_iconpicker: ^3.3.3
+  flutter_iconpicker: ^3.5.0
   flutter_font_picker: ^1.4.0
   chips_choice: ^3.0.1
   sqflite: ^2.3.3+1

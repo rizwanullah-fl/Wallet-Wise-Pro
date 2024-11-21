@@ -200,26 +200,28 @@ class _AddCategoryScreenState extends State<AddCategoryScreen> {
   }
 
   Future<void> pickIcon(BuildContext context) async {
-    IconData? icon = await showIconPicker(
-      context,
-      adaptiveDialog: true,
-      showTooltips: false,
-      showSearchBar: true,
-      iconPickerShape:
-          RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-      searchComparator: (String search, IconPickerIcon icon) =>
-          search
-              .toLowerCase()
-              .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
-          icon.name.toLowerCase().contains(search.toLowerCase()),
-    );
+    // IconData? icon = await showIconPicker(
+    //   context,
+    //   adaptiveDialog: true,
+    //   showTooltips: false,
+    //   showSearchBar: true,
+    //   iconPickerShape:
+    //       RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+    //   searchComparator: (String search, IconPickerIcon icon) =>
+    //       search
+    //           .toLowerCase()
+    //           .contains(icon.name.replaceAll('_', ' ').toLowerCase()) ||
+    //       icon.name.toLowerCase().contains(search.toLowerCase()),
+    // );
+   setState(() {
+          selectedIcon = Icons.safety_check;
 
-    if (icon != null) {
-      setState(() {
-        selectedIcon = icon;
-      });
-      debugPrint('Picked Icon:  $icon');
-    }
+    });    // if (icon != null) {
+    //   setState(() {
+    //     selectedIcon = icon;
+    //   });
+    //   debugPrint('Picked Icon:  $icon');
+    // }
   }
 
   Future<void> showColorPickerDialog(BuildContext context) async {
