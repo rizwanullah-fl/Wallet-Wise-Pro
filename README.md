@@ -30,7 +30,6 @@ With **GetX** for state management and **SQLite** as the local database, the app
 
 ### **1. Home Screen**
 <img width="1675" alt="Screenshot 2024-11-21 at 4 04 24 PM" src="https://github.com/user-attachments/assets/da4e291d-ee17-4ac4-a05e-ce9adb3c0d76">
-<img width="1675" alt="Screenshot 2024-11-21 at 4 04 46 PM" src="https://github.com/user-attachments/assets/6150a917-14c6-46b3-be13-a33043925993">
 
 
 ---
@@ -47,12 +46,13 @@ With **GetX** for state management and **SQLite** as the local database, the app
 ---
 
 ### **4. Budget Tracking**
-![Budget Tracking](URL_TO_IMAGE)
+<img width="1675" alt="Screenshot 2024-11-21 at 4 04 46 PM" src="https://github.com/user-attachments/assets/6150a917-14c6-46b3-be13-a33043925993">
 
 ---
 
 ### **5. Settings and Theme Options**
-![Settings and Theme Options](URL_TO_IMAGE)
+<img width="1675" alt="Screenshot 2024-11-21 at 4 07 50 PM" src="https://github.com/user-attachments/assets/09e0562a-43aa-4a62-8f0e-0b8b4305ee9b">
+
 
 ---
 
