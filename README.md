@@ -38,7 +38,7 @@
   - Automatic backups to local storage, with optional cloud sync (future feature).  
   - Export your expense data to PDF or CSV for sharing or archiving.
     
-- **Backup & Restore
+- **Backup & Restore**
   - Securely back up all financial data, including transactions, categories, and budgets.
   - Restore backups easily in case of device changes, app reinstallation, or data loss.
   - Support for both local storage backup and cloud storage backup (upcoming feature).
