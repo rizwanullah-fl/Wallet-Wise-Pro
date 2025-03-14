@@ -1,8 +1,8 @@
-# Wallet Wise Pro
+# SpendWise
 
 ## Description
 
-💼 **Wallet Wise Pro** is a powerful financial management application designed to help users take control of their spending, track expenses, and manage budgets effortlessly. With its user-friendly interface and versatile features, **Wallet Wise Pro** is your ultimate companion for achieving financial freedom.
+💼 **SpendWise** is a powerful financial management application designed to help users take control of their spending, track expenses, and manage budgets effortlessly. With its user-friendly interface and versatile features, **SpendWise** is your ultimate companion for achieving financial freedom.
 
 ---
 
@@ -54,7 +54,7 @@
 
 ## Flutter Setup Guide
 
-To set up **Wallet Wise Pro** on your local machine using Flutter, follow these steps:
+To set up **SpendWise** on your local machine using Flutter, follow these steps:
 
 ### Prerequisites
 
@@ -101,11 +101,11 @@ To set up **Wallet Wise Pro** on your local machine using Flutter, follow these 
    flutter test
    ```
 
-Now, you’re all set to use and develop **Wallet Wise Pro**!
+Now, you’re all set to use and develop **SpendWise**!
 
 ---
 
-Start managing your finances smarter with **Wallet Wise Pro** today! 🌟
+Start managing your finances smarter with **SpendWise** today! 🌟
 
 
 ---
